@@ -2,6 +2,8 @@
 
 This exploratory reanalysis asks whether gradients around cells with neural-like transcriptomic labels can also be recovered around nearby non-neural cells. Harutaka Katano and Yoshihiko Hoshino contributed the original [GEO series GSE276083](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276083). The archived GEO count, annotation and coordinate tables are the source team's data. The section selection, revised labels, distances, model fits and reference comparisons are products of the secondary analysis.
 
+The version-controlled analysis code is maintained at [github.com/ywqin829/gse276083-spatial-audit](https://github.com/ywqin829/gse276083-spatial-audit). A version-specific Zenodo DOI will identify the deposited analysis inputs and section-level results.
+
 ## Reproduce the audit
 
 Extract analysis_code.zip into a folder named code, next to section_inputs.rds. From code, run the commands below. The primary run takes the November reference seed 42. The sensitivity run uses seeds 1 through 20. Tested with R 4.5.1, data.table 1.17.8, Matrix 1.7-3 and RANN 2.6.2.
